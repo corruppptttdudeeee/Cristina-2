@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyPortfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaquaries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Cristina Mae</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+<nav id="hamburger-nav">
+  <div class="logo">Cristina Mae</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+</nav>
+  <section id="profile">
+    <div class="section__pic-container">
+     <img class="radius" src="/Photo/Tinang2.jpeg" alt="Cristina Mae profile picture"> 
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Cristina Mae Tabuac</h1>
+      <p class="section__text__p2">Frontend Developer</p>
+      <div class="btn-container">
+        <button  class="btn btn-color-2" onclick="window.open('./Photo/Cristina Mae Tabbuac-Resume.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./Photo/facebook-png-icon-follow-us-facebook-1.png" alt="My fb profile" class="icon" onclick='location.href="https://www.facebook.com/cristinamae.tabbuac25"'>
+        <img src="./Photo/instagram-icon.png" alt="My instagram profile" class="icon" onclick='location.href="https://www.instagram.com/tabbuaccristinamae/"'>
+    </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get to Know More</p>
+    <h1 class="title">About me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img class="radius" src="./Photo/tinang.jpg" alt="profile picture" class="about-pic">
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./Photo/xp.jpg" alt="Experience icon" class="icon">
+            <h3>Experience</h3>
+            <p>1+ years <br/> Frontend Development</p>
+          </div>
+          <div class="details-container">
+            <img src="./Photo/educ.jpg" alt="education icon" class="icon">
+            <h3>Education</h3>
+            <p>Bs-Infotech Technology <br/> Student of University of Nothern Philippines</p>
+          </div>
+        </div>
+        <div class="text-container">
+         <p>
+          Hi there! I'm Cristina Mae Tabbuac, a passionate and dedicated individual with a love for technology. With a background in Information Technology, I have honed my skills in various aspects of IT, from software development to network management.
+         </p> 
+        </div>
+      </div>
+    </div>
+    <img src="./Photo/arrow-icon.jpg" alt="Arrow icon" class="icon arrow" onclick="location='#experience'">
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">
+      Experience
+    </h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./Photo/OIP.jpg" alt="experience icon" class="icon">
+              <div>
+                <h3>HTML</h3>
+                <p>Experience</p>
+              </div>
+            </article>
+            <article>
+              <img src="./Photo/OIP.jpg" alt="experience icon" class="icon">
+              <div>
+                <h3>css</h3>
+                <p>Experience</p>
+              </div>
+            </article>
+            <article>
+              <img src="./Photo/OIP.jpg" alt="experience icon" class="icon">
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+  
+            <article>
+              <img src="./Photo/OIP.jpg" alt="experience icon" class="icon">
+              <div>
+                <h3>Material UI</h3>
+                <p>Intermidiate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./Photo/OIP.jpg" alt="experience icon" class="icon">
+              <div>
+                <h3>SASS</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+                <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./Photo/OIP.jpg" alt="experience icon" class="icon">
+              <div>
+                <h3>PostgreSQL</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./Photo/OIP.jpg" alt="experience icon" class="icon">
+              <div>
+                <h3>Node js</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./Photo/OIP.jpg" alt="experience icon" class="icon">
+              <div>
+                <h3>Express JS</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+  
+            <article>
+              <img src="./Photo/OIP.jpg" alt="experience icon" class="icon">
+              <div>
+                <h3>Git</h3>
+                <p>Intermidiate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <img src="./Photo/arrow-icon.jpg" alt="Arrow icon" class="icon arrow" onclick="location='#contact'">
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./Photo/R.png" alt="Email icon"
+        class="icon contact-icon email-icon">
+        <p><a href="mailto:cmttabbuac.ccit@unp.edu.ph">cmttabbuac.ccit@unp.edu.ph</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./Photo/facebook-png-icon-follow-us-facebook-1.png" alt="fb icon"
+        class="icon contact-icon email-icon">
+        <p><a href="https://www.facebook.com/cristinamae.tabbuac25">Cristina</a></p>
+      </div>
+    </div>
+    
+
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Cristina Mae Tabbuac. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

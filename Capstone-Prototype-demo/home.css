@@ -1,0 +1,14 @@
+.entrance{
+  align-items: center;
+  border: black solid;
+  margin-left: 17%;
+  margin-right: 17%;
+  padding-bottom: 50px;
+}
+
+.home-img{
+  height: 300px;
+  width: 323px;
+  align-items: center;
+  gap: none;
+}
